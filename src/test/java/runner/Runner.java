@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/tests"},
         glue = {"glue"},
         plugin = {"html:target/cucumber-html/cucumber.html", "json:target/cucumber-json/cucumber.json"},
-        tags = ""
+        tags = "@regression"
 )
 public class Runner {
     @AfterClass
